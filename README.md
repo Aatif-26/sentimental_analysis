@@ -34,33 +34,25 @@ nltk.download('maxent_ne_chunker')
 nltk.download('words')
 ```
 
-## Step 4: Verify NLTK Data Path
-To check where NLTK data is stored, run:
-```python
-import nltk
-print(nltk.data.path)
-```
-If necessary, manually set the correct path:
-```python
-nltk.data.path.append("C:\\Users\\YourUsername\\AppData\\Roaming\\nltk_data")
-```
 
-## Step 5: Run the Sentiment Analysis Model
-Execute the script to test the model:
+
+## Step 4: Run the Sentiment Analysis Model
+Run this script once to train the model and save it.:
 ```bash
 python sentiment_model.py
 ```
 
-## Step 6: Troubleshooting
+## Step 5: Troubleshooting
 - If you face issues related to missing **punkt_tab**, delete and re-download **punkt**:
   ```python
   nltk.download('punkt')
   ```
-- If issues persist, reinstall **NLTK**:
+## Step 6: Run test model
+- If you face issues related to missing **punkt_tab**, delete and re-download **punkt**:
   ```bash
-  pip uninstall nltk
-  pip install nltk
+  python test_model.py
   ```
+
 
 ## Notes
 - Make sure you are running commands inside the **virtual environment**.
