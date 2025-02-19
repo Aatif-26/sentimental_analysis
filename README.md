@@ -2,6 +2,15 @@
 
 ## Prerequisites
 Make sure you have **Python** installed and set up in your system.
+# Clone repository
+```bash
+git clone https://github.com/Aatif-26/sentimental_analysis
+```
+
+## Navigate to project directory
+```
+cd sentimental_analysis
+```
 
 ## Step 1: Create and Activate Virtual Environment
 ```bash
