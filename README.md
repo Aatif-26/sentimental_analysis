@@ -48,7 +48,6 @@ python sentiment_model.py
   nltk.download('punkt')
   ```
 ## Step 6: Run test model
-- If you face issues related to missing **punkt_tab**, delete and re-download **punkt**:
   ```bash
   python test_model.py
   ```
