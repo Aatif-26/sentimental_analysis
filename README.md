@@ -2,7 +2,7 @@
 
 ## Prerequisites
 Make sure you have **Python** installed and set up in your system.
-# Clone repository
+## Clone repository
 ```bash
 git clone https://github.com/Aatif-26/sentimental_analysis
 ```
