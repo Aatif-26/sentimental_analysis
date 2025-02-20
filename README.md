@@ -4,7 +4,7 @@
 Make sure you have **Python** installed and set up in your system.
 ## Clone repository
 ```bash
-git clone https://github.com/Aatif-26/sentimental_analysis
+git clone https://github.com/Aatif-26/sentiment_analysis
 ```
 
 ## Navigate to project directory
